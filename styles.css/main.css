@@ -40,3 +40,24 @@ body{
 }
 
 /* Header>naviation bar.. starts here */
+
+/* Header>showcase.... starts here */
+.showcase{
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.showcase-left{
+    width: 50%;
+}
+
+.showcase-right{
+    width: 50%;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+
+}
+
