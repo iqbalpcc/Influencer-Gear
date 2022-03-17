@@ -61,3 +61,11 @@ body{
 
 }
 
+/* Header>showcase......ends here */
+
+.company-logos{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
