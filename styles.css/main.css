@@ -96,8 +96,6 @@ body{
 
 }
 
-
-
 .popular-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -105,5 +103,34 @@ body{
     justify-items: center;
 }
 
+/* Local Business section */
 
+.local-business{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.local-business-left{
+    width: 45%;
+
+}
+.local-business-right{
+    width: 45%;
+
+}
+
+/* Local Business section */
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 0 7px;
+}
 
