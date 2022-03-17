@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@200;400;500&family=Raleway:wght@200;400;600;700&display=swap');
+
+/* Common Features */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+/* Header>naviation bar.. starts here */
+.navigation{
+    height: 70px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    font-weight: 500;
+}
+
+/* Header>naviation bar.. starts here */
