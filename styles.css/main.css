@@ -47,15 +47,16 @@ body{
     height: calc(100vh - 70px);
     align-items: center;
     background-size: cover;
+    justify-content: space-between;
     
 }
 
 .showcase-left{
-    width: 50%;
+    width: 40%;
 }
 
 .showcase-right{
-    width: 50%;
+    width: 40%;
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
 
@@ -63,9 +64,46 @@ body{
 
 /* Header>showcase......ends here */
 
+
+/* .company-logos section starts here  */
+
 .company-logos{
     height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
+/* .company-logos section starts here  */
+
+/* Popular collection starts here */
+
+.popular-collection> h2{
+    text-align: center;
+}
+
+.popular-collection>p{
+    text-align: end;
+}
+
+.popular-collection>p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+
+
+.popular-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
