@@ -46,21 +46,23 @@ body{
     display: flex;
     height: calc(100vh - 70px);
     align-items: center;
-    background-size: cover;
+    width: 100%;
     justify-content: space-between;
     
 }
 
 .showcase-left{
-    width: 40%;
+    width: 50%;
 }
 
 .showcase-right{
-    width: 40%;
+    width: 42%;
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-
+    /* border: 1px solid red; */
+    background-size: contain;
 }
+
 
 /* Header>showcase......ends here */
 
