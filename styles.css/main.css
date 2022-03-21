@@ -135,15 +135,13 @@ body{
     width: 35%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.336);
-    padding: 7px;
+    padding: 5px;
     border-radius: 7px;
+    line-height: 35px;
+
 
 }
-.local-business-right p{
-    margin-bottom: 5px;
-    
 
-}
 
 .local-business-right form input{
     width: 90%;
@@ -157,13 +155,17 @@ body{
 
 .local-business-right form textarea{
     width: 90%;
-    height: 150px;
+    height: 250px;
     border-radius: 7px;
     outline: 0;
     border: 1px solid;
     font-family: inherit;
     font-size: 16px;
 
+}
+
+.local-business-right input, .local-business-right textarea{
+    margin: 2.5px 0 2.5px 0;
 }
 
 .basic-form input::placeholder, .basic-form textarea::placeholder{
@@ -180,14 +182,19 @@ body{
     width: 100%;
     background-color: rgb(11, 11, 80);
     color: white;
+    line-height: 33px;
+    
+    
+    
 }
 
 .social-icons a{
     text-decoration: none;
     color: white;
     text-align: center;
+    padding: 0 12px 0 12px;
+    font-size: 1.2em;
 
     
 }
-
 
