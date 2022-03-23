@@ -90,6 +90,13 @@ body{
     background-repeat: no-repeat;
     /* border: 1px solid red; */
     background-size: contain;
+    cursor: pointer;
+}
+
+.showcase-right:hover img{
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+    
 }
 
 
