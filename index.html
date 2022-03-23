@@ -10,10 +10,12 @@
 
 </head>
 
-<body class="container">
+<body>
     <!-- Header Starts Here -->
-    <header>
+    <header class="container">
         <nav class="navigation">
+            <input type="checkbox" id="nav-toggler">
+            <label class="nav-toggler-icon" for="nav-toggler"><i class="fa-solid fa-bars"></i></label>
             <h2>Influencer Products</h3>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -23,6 +25,7 @@
                     <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
                 </ul>
+                <a href="" class="navigation-extra-shopping-cart"><i class="fa-solid fa-cart-shopping"></i></a>
         </nav>
         <div class="showcase">
             <div class="showcase-left">
@@ -39,7 +42,7 @@
     </header>
     <!-- Header Ends Here -->
     <!-- Company Section Starts Here -->
-    <section class="companies">
+    <section class="companies container">
         <hr>
         <div class="company-logos">
             <span class="company-logo"><img src="./logos/Alibaba.svg" alt="" srcset=""></span>
@@ -53,7 +56,7 @@
     </section>
     <!-- Company Section Ends Here -->
     <!-- Popular Collection Starts Here -->
-    <section class="popular-collection">
+    <section class="popular-collection container">
 
         <h2>Popular Collection</h2>
 
@@ -299,7 +302,7 @@
     <!-- Popular Collection Ends Here -->
 
     <!-- Local Business Starts Here -->
-    <section class="local-business">
+    <section class="local-business container">
         <div class="local-business-left">
             <h3>Are You a Small Business?</h3>
             <p>Over the past few decades, we help local business to grow by providing affordable camera euipments</p>
