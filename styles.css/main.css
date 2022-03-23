@@ -16,16 +16,28 @@ body{
 }
 
 .basic-button{
-    padding: 5px 10px;
-    background-color: coral;
+    padding: 10px 24px;
+    background-color: rgba(224, 44, 109, 0.87);
     color: white;
-    border-radius: 10px;
+    border-radius: 41px;
     outline: 0;
-    border: 2px solid black;
+    border: none;
     font-weight: 600;
     cursor: pointer;
+    box-shadow: 0 6px 0 #550330;
+    
+    
+    
     
 }
+
+.basic-button:active {
+    top: 5px;
+    transform: translate(0, 5px);
+    box-shadow: 0 3px 0 #550330;
+}
+
+
 
 /* Header>naviation bar.. starts here */
 .navigation{
@@ -67,6 +79,11 @@ body{
     width: 50%;
 }
 
+.showcase-left p {
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
 .showcase-right{
     width: 42%;
     background-image: url(../images/Circle\ design.svg);
@@ -81,6 +98,14 @@ body{
 
 /* .company-logos section starts here  */
 
+.companies hr{
+    width: 1110px;
+    height: 1px;
+    border: none;
+    outline: 0;
+    background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);;
+}
+
 .company-logos{
     height: 70px;
     display: flex;
@@ -92,20 +117,23 @@ body{
 /* .company-logos section starts here  */
 
 /* Popular collection starts here */
-
-.popular-collection> h2{
+.popular-collection h2{
     text-align: center;
+    margin: 100px 0 30px 0;
 }
 
-.popular-collection>p{
+.popular-collection > p{
     text-align: end;
+    margin: 50px 0 100px 0;
+
+    
 }
 
 .popular-collection>p a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    text-align: center;
+    color: rgba(224, 44, 109, 0.87);
 
 
 }
@@ -113,16 +141,38 @@ body{
 .popular-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px 0;
     justify-content: center;
     justify-items: center;
+}
+
+.popular-card{
+    width: 329px;
+    
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.popular-card-img{
+    text-align: center;
+}
+
+.popular-card-img img{
+    width: 100%;
+    border-radius: 5px;
+    
 }
 
 /* Local Business section */
 
 .local-business{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
     
 
 }
@@ -135,7 +185,7 @@ body{
     width: 35%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.336);
-    padding: 5px;
+    padding: 15px;
     border-radius: 7px;
     line-height: 35px;
 
