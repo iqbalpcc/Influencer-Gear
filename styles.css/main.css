@@ -115,9 +115,13 @@ body{
 
 
 /* .company-logos section starts here  */
+.companies{
+    display: flex;
+    flex-direction: column;
+}
 
 .companies hr{
-    width: 1110px;
+    width: 100%;
     height: 1px;
     border: none;
     outline: 0;
@@ -337,7 +341,7 @@ body{
 
     .companies{
         position: relative;
-        top: 300px;
+        top: 250px;
         
         
     }
