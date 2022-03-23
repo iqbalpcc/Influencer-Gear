@@ -341,7 +341,7 @@ body{
 
     .companies{
         position: relative;
-        top: 250px;
+        top: 300px;
         
         
     }
@@ -359,7 +359,7 @@ body{
         align-items: center;
     }
     .popular-card{
-        width: 90%;
+        width: 85%;
     }
 
     .local-business{
